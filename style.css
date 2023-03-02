@@ -135,27 +135,24 @@ textarea{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-     .intro h1{
-        font-size: 40px;
-    }
 
     .img-fluid{
         position: absolute;
-        top: 140px;
+        top: 120px;
         z-index: -1;
     }
 
     .btn-primary{
         background-color: #2d3036;
         position: absolute;
-        top: 340px;
+        top: 320px;
         left: 75px;
         border-color: #2d3036 0.1px solid;
     }
 
     .creativepara{
         width: 400px;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .container-fluid-contact{
