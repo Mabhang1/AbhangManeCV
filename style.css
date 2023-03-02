@@ -1,0 +1,220 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #fffefb;
+    background-image: url("liquid-cheese.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+}
+
+.container-fluid{
+    z-index: 9999;
+}
+
+.wik:hover span{
+    display: none;
+}
+
+.wik:hover:before{
+    content: "What I Know?";
+    transition-timing-function: ease-in;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); 
+    color:white;  
+}
+
+.nav-item{
+    width: 85px;
+}
+
+.img-fluid{
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    top: -60px;
+    right: 2px;
+    z-index: -1;
+}
+
+.creativepara{
+    width: 600px;
+}
+
+.btn-primary{
+    background-color: #2d3036;
+    position: absolute;
+    top: 390px;
+    left: 70px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-primary:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .btn-primary:active{
+    background-color: #2EE59D;
+    color: #fff;
+  }
+
+.container-fluid-contact{
+    margin-top: 650px;
+}
+
+.container-fluid-sec1{
+    position: absolute;
+    left: 340px;
+    top: 770px;
+}
+
+.list-social li{
+    line-height: 70px;
+    list-style:none;
+    flex-direction: column;
+    display:flex;
+}
+
+  .list-social li a i:hover{
+    color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-7px);
+  }
+
+
+.container-fluid-sec2{
+    position: absolute;
+    right: 80px;
+    top: 770px;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    color: #2d3036;
+    border: #2d3036 3px solid;
+    border-radius: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn-success{
+    text-transform: uppercase;
+    background-color: #2d3036;
+    color: #fff;
+}
+
+.btn-success:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+::-webkit-scrollbar{
+    width: .60rem;
+    background-color: #eaf9f3;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2d3036;
+    border-radius: .5rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img-fluid{
+        position: absolute;
+        top: 120px;
+        z-index: -1;
+    }
+
+    .btn-primary{
+        background-color: #2d3036;
+        position: absolute;
+        top: 320px;
+        left: 75px;
+        border-color: #2d3036 0.1px solid;
+    }
+
+    .creativepara{
+        width: 400px;
+        font-size: 3vw;
+    }
+
+    .container-fluid-contact{
+        height: 100px;
+        background-color: #2d3036;
+        margin-top: 450px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .img-fluid{
+        width: 60%;
+        height: 60%;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+    }
+
+    .btn-primary{
+        background-color: #2d3036;
+        position: absolute;
+        top: 320px;
+        left: 75px;
+        border-color: #2d3036 0.1px solid;
+    }
+
+    .creativepara{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .creativepara{
+        width: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img-fluid{
+        width: 700px;
+        height: 800px;
+        position: absolute;
+        top: -60px;
+        right: 2px;
+    }
+
+    .btn-primary{
+        background-color: #2d3036;
+        position: absolute;
+        top: 370px;
+        left: 75px;
+    }
+
+    .creativepara{
+        width: 600px;
+        font-size: 1.5em;
+    }
+}
+
+
+
+
