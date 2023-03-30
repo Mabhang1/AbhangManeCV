@@ -13,17 +13,6 @@ body{
     z-index: 9999;
 }
 
-.wik:hover span{
-    display: none;
-}
-
-.wik:hover:before{
-    content: "What I Know?";
-    transition-timing-function: ease-in;
-    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); 
-    color:white;  
-}
-
 .nav-item{
     width: 85px;
 }
